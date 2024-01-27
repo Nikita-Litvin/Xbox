@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	block-size: border-box;
+}
+.pads {
+	padding: 114px 0 145px 0;
+	background: url(../img/Rectangle.jpg) no-repeat center / cover;
+}
+.container {
+	max-width: 1017px;
+	margin: 0 auto;
+}
+.pads-title {
+	font-size: 48px;
+	line-height: 56px;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+.pads-text {
+	font-size: 24px;
+	line-height: 28px;
+	color: #ffffff;
+	margin-bottom: 37px;
+	min-width: 530px;
+}
+.pads-block {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.pads-button {
+	padding: 20px 50px;
+	background: #3734a3;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	border-radius: 4px;
+	transition: all 0.5s ease 0s;
+}
+.pads-button: hover {
+	background: #8dd83d;
+}
